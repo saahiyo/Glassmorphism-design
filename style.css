@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:ital,wght@1,300&family=Raleway:wght@200&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+ html,body {
+    height:100vh;
+    width:100%;
+ }
+main {
+   height:100%;
+   width:100%;
+   background: url(https://i.ibb.co/t8bd4xv/chi.jpg);
+   object-fit:contain;
+   background-size:100%;
+   background-repeat:no-repeat;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+    }
+ .card {
+     background: rgba( 255, 253, 253, 0.25 );
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     backdrop-filter: blur( 15px );
+     -webkit-backdrop-filter: blur( 15px );
+     border-radius: 10px;
+     height:30rem;
+     width:20rem;
+     padding:20px;
+ }
+ .card h1 {
+    font-size:50px;
+    line-height:45px;
+    font-weight:bold;
+    color:transparent;
+    -webkit-text-stroke:1px #fff;
+    border-bottom:2px dotted #fff;
+    }
+ .content {
+    margin: 15px 0;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .content h3 {
+    color:#fff;
+    font-size:1.3rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .content h2 {
+    font-size:1.8rem;
+    border-top:2px dotted #fff;
+    padding-top:15px;
+    color: #fff;
+    }
+    .content #sec {
+     border:none;
+    }
